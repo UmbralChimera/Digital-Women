@@ -1799,6 +1799,13 @@ input, select, textarea {
 			display: block;
 			width: 100%;
 			margin: 0 0 4em 0;
+
+		}
+		.image.banner {
+			display: block;
+			width: 120%;
+			margin: -4em;
+			
 		}
 
 		.image.left {
@@ -2070,6 +2077,7 @@ input, select, textarea {
 		-ms-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
 		transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
 	}
+	
 
 		input[type="button"]:hover,
 		input[type="submit"]:hover,
@@ -2079,13 +2087,14 @@ input, select, textarea {
 			color: #fff;
 			background: #ef8376;
 		}
+		
 
 		input[type="button"].alt,
 		input[type="submit"].alt,
 		input[type="reset"].alt,
 		button.alt,
 		.button.alt {
-			background: #2B252C;
+			background: #3b373b;
 		}
 
 			input[type="button"].alt:hover,
@@ -2093,7 +2102,7 @@ input, select, textarea {
 			input[type="reset"].alt:hover,
 			button.alt:hover,
 			.button.alt:hover {
-				background: #3B353C;
+				background: #544f55;
 			}
 
 /* Post */
